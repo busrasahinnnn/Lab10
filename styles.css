@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #222;
+    color: #fff;
+}
+
+.header-fixed {
+    top: 0;
+    width: 100%;
+    background: #222;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Aligns the text to the far left */
+    margin-left: 15px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1.5em;
+}
+
+.footer-right a:hover {
+    color: #ddd;
+}
+
+#contact-form .form-control {
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+#contact-form button {
+    background: #555;
+    border: none;
+}
+
+#contact-form button:hover {
+    background: #666;
+}
+
+/* Add this to your existing styles.css file or include directly */
+.contact {
+    max-width: 400px;
+    margin: 0 auto; /* Centers the contact section */
+}
+
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Ensures this section takes up available space */
+    justify-content: flex-start; /* Aligns items to the left */
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Ensures this section takes up available space */
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+.footer-left, .footer-right {
+    margin: 0; /* Remove any default margins */
+}
+
+
